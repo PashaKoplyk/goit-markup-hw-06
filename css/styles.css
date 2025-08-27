@@ -99,8 +99,13 @@ color: #434455;
 /* <!-- --------section taem ------------ --> */
 
 .team {
-    background: #f4f4fd;
+background: #f4f4fd;
 }
+
+.team-item {
+    background: #fff;
+}
+
 .team-title {
 font-weight: 700;
 font-size: 36px;
