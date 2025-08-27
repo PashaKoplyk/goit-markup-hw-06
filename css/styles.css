@@ -1,5 +1,5 @@
 .title {
-   text-transform: capitalize 
+   text-transform: capitalize; 
 }
 
 body{
@@ -17,7 +17,7 @@ text-decoration: none;
 }
 
 address {
-font-style: normal
+font-style: normal;
 }
 
 section {
@@ -167,7 +167,7 @@ line-height: 111%;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
-text-transform: capitalize
+text-transform: capitalize;
 }
 
 .portfoli-item-title {
