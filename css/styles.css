@@ -1,5 +1,6 @@
 body{
     font-family: "Roboto", sans-serif;
+    color: #434455;
 }
 
 ul {
@@ -10,6 +11,10 @@ a {
     text-decoration: none;
 }
 
+address {
+    font-style: normal
+}
+
 
 .nav-logo {
 font-family: "Raleway", sans-serif;
@@ -18,7 +23,7 @@ font-size: 18px;
 line-height: 117%;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color:  #2e2f42;
+color: #4d5ae5;
 }
 
 .nav-logo-blue {
@@ -28,7 +33,7 @@ font-size: 18px;
 line-height: 117%;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #4d5ae5;
+color: #2e2f42;
 }
 
 .nav-link {
@@ -93,6 +98,9 @@ color: #434455;
 
 /* <!-- --------section taem ------------ --> */
 
+.team {
+    background: #f4f4fd;
+}
 .team-title {
 font-weight: 700;
 font-size: 36px;
@@ -162,8 +170,9 @@ font-size: 18px;
 line-height: 117%;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #f4f4fd;
+color: #4d5ae5;
 }
+
 .nav-footer-logo-blue {
 font-family: "Raleway", sans-serif;
 font-weight: 700;
@@ -171,7 +180,7 @@ font-size: 18px;
 line-height: 117%;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #4d5ae5;
+color: #f4f4fd;
 }
 
 .footer-deskr {
