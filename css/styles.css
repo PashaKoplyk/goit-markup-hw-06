@@ -184,6 +184,9 @@ background: #fff;
 .features-list {
 display: flex;
 gap: 24px;
+list-style: none;
+padding: 0;
+margin: 0;
 }
 
 .features-item-title {
