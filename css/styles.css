@@ -35,7 +35,7 @@ display: block;
 }
 
 .container {
-width: 1188px; 
+width: 1158px; 
 padding-left: 15px;   
 padding-right: 15px;
 margin: 0 auto;
@@ -335,7 +335,9 @@ border-top: none;
 .portfolio-item-info { 
 border-bottom: 1px solid #e7e9fc; 
 border-right: 226px;
-border-left: 16px;          
+border-left: 16px;
+border-right: 1px solid #e7e9fc;
+border-left: 1px solid #e7e9fc;         
 padding: 32px 16px;   
 }
 
