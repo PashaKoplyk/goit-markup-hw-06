@@ -342,6 +342,7 @@ color: #434455;
   margin-top: 15px;
   padding: 0;
   list-style: none;
+  margin-top: 8px;
   margin-bottom: 32px;
 } 
 
@@ -363,12 +364,9 @@ color: #434455;
 .social-icon {
   width: 20px;
   height: 20px;
-  filter: invert(1); 
+  filter: brightness(0) invert(1);
 }
 
-.team-img {
-
-}
 
 /* -- ---------portfolio--------- */
 
@@ -486,6 +484,12 @@ padding-top: 100px;
 padding-bottom: 100px;
 }
 
+.footer .container {
+display: flex;
+  justify-content: space-between;
+  align-items: flex-start;     
+}
+
 .nav-footer-logo {
 font-family: "Raleway", sans-serif;
 font-weight: 700;
@@ -521,4 +525,46 @@ max-width: 264px;
 .footer-social-item {
 width: 40px;
 height: 40px;
+}
+
+
+.social-item-footer a {
+display: inline-flex;
+align-items: center;
+justify-content: center;
+width: 40px;      
+height: 40px;
+background-color: #4d5ae5;
+border-radius: 50%;         
+transition: background-color 0.3s ease;
+gap: 16px;
+}
+
+.social-item-footer a:hover {
+    background-color: #31d0aa; 
+}
+
+.footer-social-title {
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.02em;
+color: #fff;
+text-transform: capitalize;
+text-align: center;
+margin-bottom: 16px;
+}
+
+.footer-social {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: flex-start;
+padding-top: 16px;
+}
+
+.footer-brand {
+  display: flex;
+  flex-direction: column; 
+              
 }
