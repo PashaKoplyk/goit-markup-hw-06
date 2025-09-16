@@ -348,7 +348,7 @@ color: #434455;
 } 
 
 
-/* .social-link {
+.social-link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -357,7 +357,7 @@ color: #434455;
   border-radius: 50%;            
   background-color: #4d5ae5;     
   transition: background-color 0.3s ease;
-} */
+}
 
 .social-team-link:hover,
 .social-team-link:focus {
