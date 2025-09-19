@@ -725,7 +725,6 @@ display: flex;
 align-items: center; 
 justify-content: center;
 background-color: #e7e9fc;
-border: 1px solid rgba(0, 0, 0, 0.1);
 padding: 0;
 cursor: pointer;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);  
@@ -892,10 +891,6 @@ color: #4d5ae5;
 }
 }
 
-.privacy-link {
-margin-bottom: 16px;  
-}
-
 .modal-check:checked + .modal-check-label> .modal-check-box {
 border-radius: 2px;
 background-color: #404bbf;
@@ -930,7 +925,14 @@ margin-bottom: 24px;
 
 .privacy-link {
   color: var(--link-color); 
+}
 
+.modal-field-coment {
+margin-bottom: 16px;  
+}
+
+.modal-field-check {
+ margin-bottom: 24px; 
 }
 
 .input-icon,
