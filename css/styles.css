@@ -913,7 +913,7 @@ fill: #f4f4fd;
 }
 
 .modal-title {
-margin-bottom: 24px;  
+margin-bottom: 16px;  
 }
 
 :root {
@@ -924,11 +924,11 @@ margin-bottom: 24px;
   color: var(--link-color); 
 }
 
-.modal-field-coment {
-/* margin-bottom: 24px;   */
+.modal-field-comment {
+margin-bottom: 24px;  
 }
 
-.modal-coment {
+.modal-comment {
 margin-bottom: 16px  
 }
 
