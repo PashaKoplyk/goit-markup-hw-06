@@ -50,6 +50,7 @@ padding: 0;
     padding: 0 16px;
     margin: 0 auto;
 }
+
 /* ----------HEADER----------- */
 .head {
 border-bottom: 1px solid #e7e9fc;
@@ -57,6 +58,8 @@ box-shadow:
     0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 1px 6px rgba(46, 47, 66, 0.08);
+    padding-top: 16px;
+    padding-bottom: 16px;
 
 }
 
@@ -318,7 +321,7 @@ background-size: cover;
 background-repeat: no-repeat;
 /* padding: 188px 0; */
 padding-top: 72px;
-padding-bottom: 72px;
+padding-bottom: 72px;}
 
 @media screen and (min-resolution: 2x) {
     .hero {
@@ -326,7 +329,6 @@ padding-bottom: 72px;
      url(../images/hero-bg-mob-2x.jpg);
     }
   }
-}
 
 
 .hero-title {
@@ -883,20 +885,17 @@ pointer-events: auto;
 }
 
 .modal {
-width: 408px;
-min-height: 584px;
-border-radius: 4px;
-background-color: #fcfcfc;
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-padding: 72px 24px 24px 24px;
-box-shadow: 
-    0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 1px 3px rgba(0, 0, 0, 0.12),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 288px;
+    min-height: 623px;
+    padding: 72px 16px 24px 16px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
+    background-color: #fcfcfc;
+    border-radius: 4px;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-close {
@@ -1152,19 +1151,34 @@ margin-bottom: 16px
 
 /* ----heder---- */
 
+.head {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.nav-logo {
+margin-right: 76px;
+}
+
 .header-menu-list {
  display: flex; 
 }
 
- .header-logo {
-  padding: 24px 0;
-  margin-right: 120px;
- }
 
 .contact-list {
  display: flex;
  flex-direction: column;
  gap: 12px;
+}
+
+.contact-link {
+  display: block;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: #434455;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* -----hero---- */
@@ -1216,7 +1230,7 @@ background: #f4f4fd;
 }
 
 .team > .container {
-  width: 584px;
+  max-width: 584px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -1259,7 +1273,7 @@ height: 420px;
         flex-direction: row;
             flex-wrap: wrap;
             column-gap: 24px;
-            width: 584px;
+            max-width: 584px;
 
     }
 
@@ -1297,7 +1311,7 @@ height: 420px;
     }
 
      .modal {
-        width: 408px;
+       width: 408px;
         min-height: 584px;
         padding: 72px 24px 24px 24px;
     }
@@ -1308,21 +1322,26 @@ height: 420px;
 
 @media screen and (min-width: 1158px) {
 .container, .team > .container{
-  width: 1158px;
+  max-width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
 }  
 
 
+
 /* ----heder---- */
 
+
 .header-menu-list {
- display: flex; 
+    display: flex;
+    align-items: center;
+    gap: 40px;
 }
 
 .nav-logo {
-  margin-right: 76px;
+padding: 24px 0;
+margin-right: 76px;
 }
 
 .contact-list {
@@ -1332,10 +1351,10 @@ height: 420px;
 }
 
 .contact-link {
-   padding: 24px 0;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
+padding: 24px 0;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
 }
 
 /* -----hero---- */
@@ -1435,6 +1454,7 @@ position: relative;
     .container.footer-container {
         flex-wrap: nowrap;
         gap: 0;
+        max-width: 1158px;
     }
 
     .footer-brand {
@@ -1453,14 +1473,14 @@ position: relative;
 /* -----modal---- */
 
 .modal-close:hover,
-    .modal-close:focus {
-            background-color: #404bbf;
-            border: none;
-        }
+.modal-close:focus {
+background-color: #404bbf;
+border: none;
+}
 
-        .modal-close:hover .modal-close-svg,
-        .modal-close:focus .modal-close-svg {
-    fill: #fff;
+.modal-close:hover .modal-close-svg,
+.modal-close:focus .modal-close-svg {
+fill: #fff;
 }
 
 .modal-input:focus {
